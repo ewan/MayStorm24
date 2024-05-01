@@ -1,0 +1,5 @@
+_OLD
+.ipynb_checkpoints
+*.swp
+*.swo
+.Rhistory
