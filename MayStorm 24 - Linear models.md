@@ -4,14 +4,13 @@ output: pdf_document
 ---
 
 # Preparing for the example
-- Let's look at the example from the ISL book (the book is available for you on Graham in the projects folder)
-- As a practice for a typical workflow, copy the "Advertising" data from the **projects/def-emd/MayStorm24** folder into your scratch and cd into your scratch
+- Let's look at the example from the ISL book (the book is available for you on Graham in the projects folder); I'm actually not going to ask you to do anything with this data, but, as practice for a typical workflow, copy the "Advertising" data from the **projects/def-emd/MayStorm24** folder into your scratch and cd into your scratch
 - Moving forward, we will be installing a number of Python packages, so, as further practice for a typical workflow, create a virtual environment for yourself; conda provides one set of tools for doing this, but I usually use venv, which comes with Python
 ```
 python -m venv ~/python-env/bootcamp
 source ~/python-env/bootcamp/bin/activate
 ```    
-- Now you can install the packages you will need for this section, using pip: **pandas**, **plotly**, and **sciklearn**
+- Now you can install the only package you will need for this section, using pip, **pandas**
 - Now open a Python in interactive mode (don't worry about doing this on a compute node - we won't be doing anything intensive)
 ```
 import pandas as pd
