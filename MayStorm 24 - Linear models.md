@@ -52,7 +52,6 @@ $$\sum_i (y_i - \hat{y}_i)^2$$
 
 
 - As they show in the book, this optimization problem actually has an analytic solution (i.e., no need for trial and error)
-- This is related to the fact that, in the hypothesis space for a linear regression, we just have one global optimum: if you consider all the solutions (pairs of $\beta_0,\beta_1$), the graph of how good they are in terms if RSS looks like a bowl (you may sometimes hear the word **convex** because it also looks like a contact lens)
 - Sadly, most problems we study in modelling related to language don't have this property and thus require some kind of search in order to find a good solution (although it would be fascinating to discover that some of them could be could be); as such, one must in general  be careful to assess whether poor results are due to issues with **optimization** rather than problems with the underlying model
 
 # Linear model coefficients
