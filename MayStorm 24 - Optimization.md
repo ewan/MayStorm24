@@ -23,7 +23,7 @@ output: pdf_document
 - For the logistic regression we maximize the likelihood, which is the following straightforward formula:
 
 $$
-\prod_{i:y_i=1}{p(y_i=1|x_i)}\prod_{i^\prime:y_{i^\prime}=0}{(1-p(y_{i^\prime}|x_{i^\prime}))}
+\prod_{i:y_i=1}{p(y_i=1|x_i)}\prod_{i^\prime:y_{i^\prime}=0}{(1-p(y_{i^\prime}=1|x_{i^\prime}))}
 $$
 
 - This is equivalent to minimizing the negative log likelihood, as follows:

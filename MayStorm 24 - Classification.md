@@ -79,7 +79,7 @@ $$
 
 
 $$
-z = \log{\left(\frac{e^{z}}{1 + e^z}\right)}
+z = \log{\left(\frac{p}{1-p}\right)}
 $$  
 
 - What this means is, as $z$ increases (decreases), the **log odds** of the category coded as 1 will increase (decreases)
