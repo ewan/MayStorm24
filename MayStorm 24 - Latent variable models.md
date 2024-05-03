@@ -56,3 +56,5 @@ $$
 ![image](images/Magic%20evil%20iris.png)
 ![image](images/Magic%20evil%20iris%20V1.png)
 ![image](images/Magic%20evil%20iris%20V2.png)
+![image](images/Setosica%20latents.png)
+![image](images/Setosica%20untransformed%20latents.png)
